@@ -135,6 +135,20 @@ UPDATE  hikingtrails.hikingtrails_thegorge
 SET new_crowded = 'No records'
 WHERE LENGTH(Crowded) <1
 
+## Add Available_all_year column 
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+ADD available_all_year VARCHAR(10);
+
+UPDATE  hikingtrails.hikingtrails_thegorge
+SET available_all_year = 
+CASE WHEN Seasons LIKE 'All%' THEN 'Yes'
+WHEN Seasons LIKE '%year%' THEN 'Yes'
+ELSE 'No'
+END 
+
+SELECT *
+FROM hikingtrails.hikingtrails_thegorge
 
 ## Drop columns with dirty data 
 ALTER TABLE hikingtrails.hikingtrails_thegorge
