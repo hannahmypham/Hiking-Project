@@ -150,6 +150,12 @@ END
 SELECT *
 FROM hikingtrails.hikingtrails_thegorge
 
+##Check if duplicate exist and found that there is no duplicates 
+SELECT *, 
+ROW_NUMBER () OVER (PARTITION BY trail_name, seasons, modified_trail_type ORDER BY trail_name)
+FROM hikingtrails.hikingtrails_thegorge
+
+
 ## Drop columns with dirty data 
 ALTER TABLE hikingtrails.hikingtrails_thegorge
 DROP trail_type
