@@ -108,7 +108,7 @@ ADD new_backpackable VARCHAR(10);
 
 UPDATE  hikingtrails.hikingtrails_thegorge
 SET new_backpackable = CASE 
-							WHEN Backpackable LIKE 'Yes%' THEN 'Yes'
+							WHEN Backpackable LIKE '%es%' THEN 'Yes'
 							WHEN Backpackable LIKE 'No%' THEN 'No'
 							ELSE 'No'
 							END 
@@ -135,11 +135,34 @@ UPDATE  hikingtrails.hikingtrails_thegorge
 SET new_crowded = 'No records'
 WHERE LENGTH(Crowded) <1
 
+
+## Drop columns with dirty data 
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP trail_type
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP Distance
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP high_point
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP elevation_gain
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP Difficulty
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP Backpackable
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP Crowded
+
+ALTER TABLE hikingtrails.hikingtrails_thegorge
+DROP family_friendly
+
 SELECT *
 FROM hikingtrails.hikingtrails_thegorge
-
-		
-
 
 
 
