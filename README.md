@@ -17,8 +17,14 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 
 ## Key takeaway 
 
+## Recommendations
+
 ## Tools used during analysis
 ### SQL for data quality check and cleaning
 1. SQL Case When to categorize data
 2. SQL window functions to detect duplications
 3. SQL text functions (LIKE, LEFT, POSITION) to extract data 
+
+### Tableau + Figma for visualization
+1. Asthetic color choice with diverging scheme to illustrate intensity 
+2. Figma to design dashboard background 
