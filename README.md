@@ -28,3 +28,4 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 ### Tableau + Figma for visualization
 1. Asthetic color choice with diverging scheme to illustrate intensity 
 2. Figma to design dashboard background 
+3. Slicer Filters using Parameters Actions
