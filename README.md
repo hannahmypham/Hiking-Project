@@ -8,3 +8,12 @@ As a hiker, I enjoy exploring different hiking trails near my city or in nationa
 The dataset provides information of 172 trails in this park. 
 
 The columns include: trail names, trail type, distance, high point, elevation gain, difficulty level, whether or not it is family friendly, backpackagle, and crowded. 
+
+## Questions for the analysis
+1. What is the most challenging trail? What is the easiest trail to conquer?
+2. How many trails are available all year long?
+3. What trails that are suitable for family? 
+4. How many trails that are backpacker friendly? 
+
+## Key takeaway 
+
