@@ -17,3 +17,8 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 
 ## Key takeaway 
 
+## Tools used during analysis
+### SQL for data quality check and cleaning
+1. SQL Case When to categorize data
+2. SQL window functions to detect duplications
+3. SQL text functions (LIKE, LEFT, POSITION) to extract data 
