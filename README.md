@@ -14,10 +14,16 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 2. How many trails are available all year long?
 3. What trails that are suitable for family? 
 4. How many trails that are backpacker friendly? 
+5. What type of hikers do I recommend to explore this national park? 
 
 ## Key takeaway 
+1. The most challenging trail is Wahtum Lake Via Ruckel Creek Hike. The easiest trails are Sames Walker Loop Hike, Hood River Waterfront Hike, and Fort Cascades Loop Hike 
+2. 108 trails are available all year long, which accounts for 62.79% of total trails in Columbia River Gorge National Park. 
+3. Trails that are suitable for family are usually easy trails that are family friendly, available all year and not crowded. There are 16 trails that satisfy those criteria with 14 loop trails and 12 out and back trails. Those include Ainswoth Loop Hike, Balfour - Klickitat Loop Hike, Buck Creek on Larch Mountain Hike, and other trails.
+4. There are 41 trails that are suitable for backpackers with different level of difficulties and trail types.
 
 ## Recommendations
+Columbia National Park is 
 
 ## Tools used during analysis
 ### SQL for data quality check and cleaning
