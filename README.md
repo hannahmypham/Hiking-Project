@@ -26,6 +26,7 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 3. SQL text functions (LIKE, LEFT, POSITION) to extract data 
 
 ### Tableau + Figma for visualization
-1. Asthetic color choice with diverging scheme to illustrate intensity 
-2. Figma to design dashboard background 
-3. Slicer Filters using Parameters Actions
+1. Top N filter
+2. Slicer Filters using Parameters Actions and Calculated Fields
+3. Figma to design dashboard background 
+4. Asthetic color choice with diverging scheme to illustrate intensity 
