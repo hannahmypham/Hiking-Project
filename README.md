@@ -24,7 +24,9 @@ The columns include: trail names, trail type, distance, high point, elevation ga
 
 ## Recommendations
 1.The majority of trails at Columbia Gorge National Park are at easy and moderate level. In addition, more than half of the traisl that are available all yea long, family friendly and backpackable. 
+
 2. However, those trails could be crowded for hikers. 
+
 3. Overall, this park is more suitable for family to explore together, there are trails with difficult level that are perfect for professional hikers who love to backpacking. 
 
 ## Tools used during analysis
